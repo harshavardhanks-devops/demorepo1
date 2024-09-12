@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('stage1') {
             steps {
-                echo 'Hello World'
+                echo 'Hello stage1'
             }
         }
         stage('stage2') {
             steps {
-                echo 'Hello World'
+                echo 'Hello stage2'
             }
         }
     }
